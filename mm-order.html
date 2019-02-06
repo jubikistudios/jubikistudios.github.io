@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css"> <!-- Main style -->
+    <link rel="stylesheet" href="css/normalize.css"> <!-- CSS Browser Reset -->
+    <link rel="stylesheet" href="css/animate.css"> <!-- Animate Elements -->
+    <link rel="stylesheet" href="css/hover-min.css"> <!-- Hover Animation -->
+    <link rel="stylesheet" href="css/flexboxgrid.min.css"> <!-- Flexbox Grid -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- jquery -->
+    
+    <title>Jubiki Studios | Marketing Material Order</title>
+</head>
+    <body>
+        <div class="half"></div>
+        
+        <!-- start wrapper -->
+        <div class="wrapper">
+
+            <!-- start site -->
+            <div id="page" class="site">
+                <header class="site-header">
+                    <div class="site-branding">
+                        <img src="img/logo.png" class="logo-img">
+                        <h1 class="site-title"><a href="index.html" rel="home">Jubiki Studios</a></h1>
+                    </div><!-- .site-branding -->
+                    
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank">f</a></li>
+                            <li><a href="https://twitter.com/JubikiStudios" target="_blank">t</a></li>
+                            <li><a href="https://www.instagram.com/jubiki.studios/" target="_blank"><img src="img/instagram.png" style="width: 35px; height: auto;"></a></li>
+                            <li><a href="mailto:contact@jubiki.com" target="_blank"><img src="img/email.png" style="width: 35px; height: auto;"></a></li>
+                        </ul>
+                    </div>
+                </header><!-- end header -->
+
+                <!-- start site-content -->
+                <div class="site-content">
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About &darr;</a>
+                                <ul class="fallback">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="faqs.html">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#" class="current">Services &darr;</a>
+                                <ul class="fallback">
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="how-order.html">How to Order</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+        
+                    <div class="fifteen"></div>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
+                                <input type="hidden" name="_subject" value="Thank You Cards or Business Cards order">
+                                <label for="order">I am ordering:</label>
+                                <br>
+                                <input type="radio" name="order" value="comp-cards"> Thank You Cards
+                                <br>
+                                <input type="radio" name="order" value="headshots"> Business Cards
+                                <br>
+                                <input type="radio" name="order" value="business-thanks"> Both
+                                <br><br>
+                                <fieldset>
+                                    <legend>Shipping Address:</legend>
+                                    <input type="text" name="fullname" placeholder="Full Name"><br>
+                                    <input type="text" name="address" placeholder="Address"><input type="text" name="city" placeholder="City"><br>
+                                    <input type="text" name="state" placeholder="State">
+                                    <input type="text" name="zip" placeholder="Zip Code">
+                                </fieldset>
+                                <br>
+                                <fieldset>
+                                    <legend>Contact:</legend>
+                                    <input type="tel" name="phone-number" placeholder="000-000-0000">
+                                    <br>
+                                    <input type="checkbox" name="any">
+                                    <label for="any">Anytime</label>
+                                    <br>
+                                    <input type="checkbox" name="morning">
+                                    <label for="morning">9am - 11am</label>
+                                    <br>
+                                    <input type="checkbox" name="afternoon">
+                                    <label for="afternoon">1pm - 5pm</label>
+                                    <br><br>
+                                    <input type="text" name="email" placeholder="E-Mail">
+                                    <input type="text" name="confirm" placeholder="Confirm Email">
+                                </fieldset>
+                                <br>
+                                <fieldset>
+                                    <legend>Business Cards:</legend>
+                                    <p>If you're an actor or a model with an agency, please provide your agent's full contact information instead of your own. All correspondance should be done through them.</p>
+                                    <input type="text" name="name-on" placeholder="Name for Business Card">
+                                    <br>
+                                    <input type="text" name="e-mail" placeholder="E-Mail">
+                                    <input type="text" name="ph" placeholder="Phone Number">
+                                    <textarea name="social" placeholder="List Social Media Accounts to Include on Business Card"></textarea>
+                                    <textarea name="info" placeholder="Provide any other information you would like printed on your business card"></textarea>
+                                </fieldset>
+                                <br>
+                                    <fieldset>
+                                        <legend>Thank You Cards</legend>
+                                        <select name="occupation">
+                                            <option value="actor">Actor</option>
+                                            <option value="model">Model</option>
+                                            <option value="author">Author</option>
+                                            <option value="artist">Artist</option>
+                                            <option value="musician">Musician</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <p>If you selected other, please ellaborate:</p>
+                                        <textarea name="more-other"></textarea>
+                                        <p>How would you like your thank you card to look?</p>
+                                        <textarea name="look-thankyou-card"></textarea>
+                                    </fieldset>
+
+                                <fieldset>
+                                    <legend>File Upload</legend>
+                                    <p>Any files you upload to be included on your thank you cards or business cards must be owned by you will full permissions for commercial use. Please upload <b>zip files only</b>. <a href="https://www.wikihow.com/Make-a-Zip-File" target="_blank">Learn to make a zip file</a>.</p>
+                                    <input type="file" name="file">
+                                </fieldset>
+
+                                <p>By submitting this form, you agree to our <a href="agreement.html" target="_blank">Terms and Conditions</a></p>
+                                <input type="hidden" name="_after" value="http://jubiki.com/order-sent.html">
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+
+                </div> <!-- end site content -->
+                
+                <!-- start footer -->
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12"  id="footer">
+                        <div class="ten"></div>
+                        <p>&copy; Jubiki Studios | All Rights Reserved</p>
+                    </div>
+                </div> <!-- end footer -->
+                
+            </div> <!-- end site -->
+        </div> <!-- end wrapper -->
+         
+        <div class="eighty"></div>
+        
+        <script>
+            $('nav li ul').hide().removeClass('fallback');
+            $('nav li').hover(
+                function () {
+                    $('ul', this).stop().slideDown(100);
+                },
+                function () {
+                    $('ul', this).stop().slideUp(100);
+                }
+            );
+        </script>
+    </body>
+</html>

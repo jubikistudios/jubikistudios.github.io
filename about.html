@@ -12,7 +12,7 @@
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- jquery -->
     
-	<title>Jubiki Studios | Home</title>
+    <title>Jubiki Studios | About</title>
 </head>
     <body>
         
@@ -20,6 +20,7 @@
         
         <!-- start wrapper -->
         <div class="wrapper">
+            
             <!-- start site -->
             <div id="page" class="site">
                 <header class="site-header">
@@ -27,21 +28,23 @@
                         <img src="img/logo.png" class="logo-img">
                         <h1 class="site-title"><a href="index.html" rel="home">Jubiki Studios</a></h1>
                     </div><!-- .site-branding -->
-                    <div class="social">
-                        <ul>
-                            <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank">f</a></li>
-                            <li><a href="https://twitter.com/JubikiStudios" target="_blank">t</a></li>
-                            <li><a href="https://www.instagram.com/jubiki.studios/" target="_blank"><img src="img/instagram.png" style="width: 35px; height: auto;"></a></li>
-                            <li><a href="mailto:contact@jubiki.com" target="_blank"><img src="img/email.png" style="width: 35px; height: auto;"></a></li>
-                        </ul>
-                    </div>
-                </header><!-- #masthead -->
-                
+        
+                <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank">f</a></li>
+                        <li><a href="https://twitter.com/JubikiStudios" target="_blank">t</a></li>
+                        <li><a href="https://www.instagram.com/jubiki.studios/" target="_blank"><img src="img/instagram.png" style="width: 35px; height: auto;"></a></li>
+                        <li><a href="mailto:contact@jubiki.com" target="_blank"><img src="img/email.png" style="width: 35px; height: auto;"></a></li>
+                    </ul>
+                </div>
+                </header><!-- end header -->
+
+                <!-- start site-content -->
                 <div class="site-content">
                     <nav>
                         <ul>
-                            <li><a href="index.html" class="current">Home</a></li>
-                            <li><a href="#">About &darr;</a>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#" class="current">About &darr;</a>
                                 <ul class="fallback">
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="faqs.html">FAQs</a></li>
@@ -57,44 +60,38 @@
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
-                    <div class="fifteen"></div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="col-xs-12" id="intro">
-                                <div class="row">
-                                    <div class="col-lg-offset-5 col-md-offset-5 col-xs-12 col-md-7 col-lg-7">
-                                        <div class="box-row">
-                                            <p class="intro">We are <b>Jubiki Studios</b>. We make creative professionals look good in print and on the web.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ten"></div>
         
+                    <div class="fifteen"></div>
+            
                     <div class="row">
                         <div class="col-xs-12">
-                                <div class="col-xs-12">
-                                    <div class="row">
-                                        <div class="col-xs-12 col-md-4 col-lg-4" id="quick-links">
-                                            <h3>Important Links</h3>
-                                            <ul>
-                                                <li><a href="faqs.html">FAQs</a></li>
-                                                <li><a href="how-order.html">How to Order</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-xs-12 col-md-8 col-lg-8">
-                                            <p>We're a unique, one-stop shop for web and print. Simply tell us what you need, and we'll handle everything. You'll get a package in the mail with your order neatly organized just for you.</p>
-                                            <p>Before you order, please check out <a href="how-order.html">how to order</a>.</p>
-                                        </div>
-                                    </div>
-                                </div>
 
+                            <p>We are Jubiki Studios, a small business based in New Orleans, LA. We focus on making creative professionals look good in print and on the web. We're operated by a team of experienced creative professionals. After struggling to find services that fit our needs, we decided to launch a business to provide the services that we, ourselves, struggled to find.</p> 
                         </div>
                     </div>
-                
+
+                    <div class="twenty-five"></div>
+
+                    <div class="row">
+                        <div class="col-xs-12" style="text-align: center;">
+                            <h3>What We Do</h3>
+                        </div>
+                    </div>
+
+                    <div class="twenty-five"></div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-lg-6">
+                            <p>We've carefully constructed graphic, print and web services designed specifically for creative professionals like actors, models, authors, and artists. Being creative professionals ourselves, we built a company with services geared to solve the problems we experienced firsthand.</p>
+                            <p>Our products include, yet aren't limited to, comp cards, headshots, business cards, posters, banners, and more. We design and develop professional websites, too.</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-6">
+                            <img src="img/desk.svg">
+                        </div>
+                    </div>
+
+                    <div class="twenty-five"></div>
+        
                 </div> <!-- end site-content -->
                 
                 <!-- start footer -->
@@ -104,13 +101,12 @@
                         <p>&copy; Jubiki Studios | All Rights Reserved</p>
                     </div>
                 </div> <!-- end footer -->
-                
             </div> <!-- end site -->
-            
+
             <div class="eighty"></div>
+            
         </div> <!-- end wrapper -->
-        
-        <script>
+         <script>
             $('nav li ul').hide().removeClass('fallback');
             $('nav li').hover(
                 function () {
