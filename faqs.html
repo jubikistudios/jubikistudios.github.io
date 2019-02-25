@@ -1,67 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+title: FAQs
+---
 
-    <link rel="stylesheet" href="css/style.css"> <!-- Main style -->
-    <link rel="stylesheet" href="css/normalize.css"> <!-- CSS Browser Reset -->
-    <link rel="stylesheet" href="css/animate.css"> <!-- Animate Elements -->
-    <link rel="stylesheet" href="css/hover-min.css"> <!-- Hover Animation -->
-    <link rel="stylesheet" href="css/flexboxgrid.min.css"> <!-- Flexbox Grid -->
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- jquery -->
-    
-	<title>Jubiki Studios | FAQs</title>
-</head>
-    <body>
-        
-        <div class="half"></div>
-        
-        <!-- start wrapper -->
-        <div class="wrapper">
-            
-            <div id="page" class="site">
-                <header class="site-header">
-                    <div class="site-branding">
-                        <img src="img/logo.png" class="logo-img">
-                        <h1 class="site-title"><a href="index.html" rel="home">Jubiki Studios</a></h1>
-                    </div><!-- .site-branding -->
-                    
-                    <div class="social">
-                        <ul>
-                            <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank">f</a></li>
-                            <li><a href="https://twitter.com/JubikiStudios" target="_blank">t</a></li>
-                            <li><a href="https://www.instagram.com/jubiki.studios/" target="_blank"><img src="img/instagram.png" style="width: 35px; height: auto;"></a></li>
-                            <li><a href="mailto:contact@jubiki.com" target="_blank"><img src="img/email.png" style="width: 35px; height: auto;"></a></li>
-                        </ul>
-                    </div>
-                </header><!-- header -->
-                
-                <div class="site-content">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About &darr;</a>
-                                <ul class="fallback">
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="faqs.html" class="current">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Services &darr;</a>
-                                <ul class="fallback">
-                                    <li><a href="services.html">Services &darr;</a></li>
-                                    <li><a href="#">How to Order</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                    
-                    <div class="fifteen"></div>
-                    
-                    <div class="row">
+<div class="row">
                         <div class="col-xs-12 col-md-12 col-lg-12">
                             <h2>General</h2>
                             <button class="accordion">How do I file a complaint?</button>
@@ -139,20 +81,8 @@
                             
                         </div> <!-- end col -->
                     </div> <!-- end row -->
-                </div> <!-- end site-content -->
-                <!-- start footer -->
-                <div class="row">
-                    <div class="col-xs-12 col-md-12 col-lg-12"  id="footer">
-                        <div class="ten"></div>
-                        <p>&copy; Jubiki Studios | All Rights Reserved</p>
-                    </div>
-                </div> <!-- end footer -->
-            </div> <!-- end site -->
-            
-            <div class="eighty"></div>
-        </div> <!-- end wrapper -->
-        
-        <script>
+
+<script>
             var acc = document.getElementsByClassName("accordion");
             var i;
 
@@ -168,17 +98,3 @@
               });
             }
         </script>
-        
-        <script>
-            $('nav li ul').hide().removeClass('fallback');
-            $('nav li').hover(
-                function () {
-                    $('ul', this).stop().slideDown(100);
-                },
-                function () {
-                    $('ul', this).stop().slideUp(100);
-                }
-            );
-        </script>
-    </body>
-</html>
