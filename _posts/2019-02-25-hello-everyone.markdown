@@ -4,7 +4,7 @@ title:  "Hello, Everyone!"
 date:   2019-02-25
 categories: general update
 tags: jekyll
-featured-image: https://i.ibb.co/dDcdfHR/hello.png
+featured-image: "https://i.ibb.co/dDcdfHR/hello.png"
 featured-image-alt: "hello"
 ---
 
