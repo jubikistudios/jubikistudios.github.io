@@ -76,17 +76,17 @@ Cutting corners is like to covering up potholes with paper.
 
 There's many tools you can choose from, but here's a list of my favorites: 
 
-[IFTTT] (https://ifttt.com/) is an online tool that automates tasks done between applications. The acronym stands for If This, Then That. 
+[IFTTT](https://ifttt.com/) is an online tool that automates tasks done between applications. The acronym stands for If This, Then That. 
 
-[Hootsuite] (https://hootsuite.com/) is a social media management tool. It make posting to social media easier by offering a variety of platforms in one application. You can either schedule posts or post live directly from the site.
+[Hootsuite](https://hootsuite.com/) is a social media management tool. It make posting to social media easier by offering a variety of platforms in one application. You can either schedule posts or post live directly from the site.
 
-[Buzzsumo] (https://buzzsumo.com/) is an online tool that tracks popular content on the internet. Search by topic or competitor and receive a list of popular content by your parameters. 
+[Buzzsumo](https://buzzsumo.com/) is an online tool that tracks popular content on the internet. Search by topic or competitor and receive a list of popular content by your parameters. 
 
-[Followerwonk] (https://followerwonk.com/) is an in-depth analytics tool for Twitter. It analyzes your data to help you learn more about your audience, ideal posting times and more.
+[Followerwonk](https://followerwonk.com/) is an in-depth analytics tool for Twitter. It analyzes your data to help you learn more about your audience, ideal posting times and more.
 
-[Bitly] (https://bitly.com/) is a link shortening service that gives you shorter links for sharing. That may not sound like much, but links can get lengthy and unattractive. Shortening your links gives you more character space and a professional appearance.
+[Bitly](https://bitly.com/) is a link shortening service that gives you shorter links for sharing. That may not sound like much, but links can get lengthy and unattractive. Shortening your links gives you more character space and a professional appearance.
 
-[Zest] (https://zest.is/) delivers high quality marketing content to your browser. It eliminates the need to sort through a pile of junk by mining for the best content for you. Right now, it's a browser extension only available on Chrome, but it's well worth the switch.
+[Zest](https://zest.is/) delivers high quality marketing content to your browser. It eliminates the need to sort through a pile of junk by mining for the best content for you. Right now, it's a browser extension only available on Chrome, but it's well worth the switch.
 
 ## Bonus Tips: 
 
