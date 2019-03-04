@@ -3,19 +3,19 @@ layout: default
 title: Blog
 ---
 
-{% for post in paginator.posts %}
-
-
-
 <div class="row">
     <div class="col-xs-12 col-md-8 col-lg-8">
+{% for post in paginator.posts %}
+
             <h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         <p class="post-date">{{ post.date | date: "%B %-d %Y" }}</p>
         <img class="feat-img" src="{{ post.featured-image }}" alt="{{ post.featured-image-alt }}" />
             <p>{{ post.excerpt }}</p>
-    </div>
     
+        
     {% endfor %}
+        
+        </div>
     
     <div class="col-xs-12 col-md-4 col-lg-4">
         
