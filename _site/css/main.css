@@ -1170,6 +1170,7 @@ nav a:hover {
   background: #992AF9;
   min-height: 200px;
   margin-right: 5px;
+  padding-bottom: 15px;
   overflow: hidden;
   color: #fff; }
 
@@ -1190,7 +1191,8 @@ nav a:hover {
 .purple-menu ul {
   padding: 5px;
   position: relative;
-  top: 10px; }
+  top: 10px;
+  padding-bottom: 15px; }
 
 #footer {
   color: #fff;
