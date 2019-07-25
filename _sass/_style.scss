@@ -441,4 +441,17 @@ fieldset {
   border: 1px solid #4b4b4b;
 }
 
+/* img */
 
+.gal-img {
+    width: 100%;
+}
+
+#gallery {
+    column-count: 3;
+}
+
+h2.gallery-title {
+    clear: both; 
+    width: 90%;
+}
