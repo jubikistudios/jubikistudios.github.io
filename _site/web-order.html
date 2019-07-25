@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link rel="stylesheet" href=/css/main.css>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- jquery -->
+    
+    <script type="text/javascript">
+            if (screen.width <= 699) {
+                document.location = "http://localhost:4000/overview.pdf";
+            }
+    </script>
+
+	<title>Jubiki Studios | Web Order</title>
+</head>
+
+<body>
+	<!-- start wrapper -->
+<div class="wrapper">
+    <header class="site-header">
+            <div class="site-branding">
+                <h1 class="site-title"><a href="index.html" rel="home">Jubiki Studios</a></h1>
+                <h3>Print, Graphic and Web Services</h3>
+            </div><!-- .site-branding -->
+        </header><!-- #masthead -->
+    <!-- start site -->
+    <div id="page" class="site">
+        <div class="site-content">
+            <div class="small"></div>
+            
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <nav>
+                        <ul>
+                            <li><a href='http://localhost:4000/' class="gray">Home</a></li>
+                            <li><a href="http://localhost:4000/about.html">About</a></li>
+                            <li><a href="http://localhost:4000/gallery" class="purple">Gallery</a></li>
+                            <li><a href="http://localhost:4000/services.html" class="green">Services</a></li>
+                            <li><a href="http://localhost:4000/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UC7FhJWmK4FsPfoH19zlPZsA/"><img src="img/youtube.svg"> </a> </li>
+                            <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank"><img src="img/facebook.svg"> </a></li>
+                            <li><a href="https://twitter.com/JubikiStudios"><img src="img/twitter.svg"> </a> </li>
+                            <li><a href="https://www.instagram.com/jubiki.studios/"><img src="img/instagram.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fifteen"></div>
+            
+	<div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            
+            <div class="row">
+    <div class="col-xs-12">
+        <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
+            <input type="hidden" name="_subject" value="Web Order">
+            <fieldset>
+                <legend>Contact:</legend>
+                <input type="text" name="name" placeholder="Full Name"><br>
+                <input type="tel" name="phone-number" placeholder="000-000-0000">
+                <br>
+                <input type="checkbox" name="any">
+                <label for="any">Anytime</label>
+                <br>
+                <input type="checkbox" name="morning">
+                <label for="morning">9am - 11am</label>
+                <br>
+                <input type="checkbox" name="afternoon">
+                <label for="afternoon">1pm - 5pm</label>
+                <br><br>
+                <input type="email" name="email" placeholder="E-Mail" required>
+                <input type="email" name="confirm" placeholder="Confirm Email" required>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Extras:</legend>
+                <input type="checkbox" name="content-creation">
+                <label for="any">Content Creation</label>
+                <br>
+                <input type="checkbox" name="domain">
+                <label for="morning">Domain</label>
+                <br>
+                <input type="checkbox" name="hosting">
+                <label for="afternoon">Hosting</label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Booking:</legend>
+                <p>When would you like to start your project?</p>
+                <input type="date" name="start-date">
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Information:</legend>
+                <label for="occupation">What is your occupation?</label><br>
+                <input type="text" name="occupation" required>
+                <p>What would you like your website to do?</p>
+                <textarea name="website" required></textarea>
+                <p>What are your marketing goals?</p>
+                <textarea name="marketing"></textarea>
+                <p>What challenges have you had with your website in the past?</p>
+                <textarea name="goals"></textarea>
+                <br>
+                <label for="color-scheme">What is your preferred color scheme?</label><br>
+                <input type="text" name="color-scheme">
+                <p>Describe (as fully as possible) the features you'd like to have on your website:</p>
+                <textarea name="features" required></textarea>
+                <p>List a minimum of three websites with a style or color scheme you like. Please tell us why you like them.</p>
+                <textarea name="likes" required></textarea>
+                <p>Please share anything you think will help us understand your needs and goals better:</p>
+                <textarea name="needs-goals"></textarea>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Social Media</legend>
+                <p>What social media platforms are you active on?</p>
+                <input type="checkbox" name="Facebook">
+                <label for="facebook">Facebook</label>
+                <br>
+                <input type="checkbox" name="Twitter">
+                <label for="twitter">Twitter</label>
+                <br>
+                <input type="checkbox" name="Youtube">
+                <label for="youtube">Youtube</label>
+                <br>
+                <input type="checkbox" name="instagram">
+                <label for="instagram">Instagram</label>
+                <br>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Website</legend>
+                <p>I would like to order a simple site:</p>
+                <select name="website-type" required>
+                    <option value="none">None</option>
+                    <option value="one">1 to 2 Pages</option>
+                    <option value="two">3 to 4 pages</option>
+                    <option value="three">5 to 7 pages</option>
+                    <option value="four">8+</option>
+                  </select>
+                <br><br>
+                <p>I need a Wordpress Site:</p>
+                <select name="wordpress" required>
+                    <option value="none">None</option>
+                    <option value="customization">Customization</option>
+                    <option value="normal">Normal</option>
+                    <option value="e-commerce">E-Commerce</option>
+                  </select>
+                <br><br>
+                <input type="checkbox" name="web-dontknow">
+                <label for="web-dontknow">I don't know what I need.</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Other</legend>
+                <p>I need a maintenance plan.</p>
+                <select name="maintenance" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                <br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>File Upload</legend>
+                <p>Please provide any hi-res photos or other assets you have for your website. If you have content ready, please upload that. Please upload <b>zip files only</b>. <a href="https://www.wikihow.com/Make-a-Zip-File" target="_blank">Learn to make a zip file</a>.</p>
+                <input type="file" name="file">
+            </fieldset>
+
+            <p>By submitting this form, you agree to our <a href="terms-conditions.html" target="_blank">Terms and Conditions</a></p>
+            <input type="hidden" name="_after" value="http://jubiki.com/order-sent.html">
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+</div> 
+            
+          
+            
+        </div>
+    </div>
+		</div> <!-- end site-content -->                
+                
+            </div> <!-- end site -->
+            
+        </div> <!-- end wrapper -->
+        
+        <!-- start footer -->
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12"  id="footer">
+                        <div class="ten"></div>
+                        <p>&copy; Jubiki Studios | All Rights Reserved</p>
+                    </div>
+                </div> <!-- end footer -->
+    
+</body>
+</html>

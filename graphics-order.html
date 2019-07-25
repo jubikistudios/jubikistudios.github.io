@@ -1,0 +1,76 @@
+---
+layout: default
+title: Graphics Order
+---
+
+
+<div class="row">
+    <div class="col-xs-12">
+        <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
+            <input type="hidden" name="_subject" value="Graphics Order">
+            <label for="order">I am ordering:</label>
+            <select name="order">
+              <option value="social-media">Social Media Graphics</option>
+              <option value="logo">Logo</option>
+              <option value="both">Both</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Contact:</legend>
+                <input type="text" name="name" placeholder="Full Name"><br>
+                <input type="tel" name="phone-number" placeholder="000-000-0000">
+                <br>
+                <input type="checkbox" name="any">
+                <label for="any">Anytime</label>
+                <br>
+                <input type="checkbox" name="morning">
+                <label for="morning">9am - 11am</label>
+                <br>
+                <input type="checkbox" name="afternoon">
+                <label for="afternoon">1pm - 5pm</label>
+                <br><br>
+                <input type="email" name="email" placeholder="E-Mail" required>
+                <input type="email" name="confirm" placeholder="Confirm Email" required>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Information:</legend>
+                <label for="occupation">What is your occupation?</label><br>
+                <input type="text" name="occupation" required>
+                <br>
+                <label for="color-scheme">What is your preferred color scheme?</label><br>
+                <input type="text" name="color-scheme" required>
+                <p>List a minimum of three websites, logos and graphics with a style or color scheme you like. Please tell us why you like them.</p>
+                <textarea name="likes" required></textarea>
+                <p>Please share anything you think will help us understand your needs and goals better:</p>
+                <textarea name="needs-goals"></textarea>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Social Media</legend>
+                <p>What social media platforms are you ordering for? Choose three.</p>
+                <input type="checkbox" name="Facebook">
+                <label for="facebook">Facebook</label>
+                <br>
+                <input type="checkbox" name="Twitter">
+                <label for="twitter">Twitter</label>
+                <br>
+                <input type="checkbox" name="Youtube">
+                <label for="youtube">Youtube</label>
+                <br>
+                <input type="checkbox" name="etsy">
+                <label for="etsy">Etsy</label>
+                <br>
+                <input type="checkbox" name="linkedin">
+                <label for="linkedin">Linkedin</label>
+                <br>
+            </fieldset>
+
+            <p>By submitting this form, you agree to our <a href="terms-conditions.html" target="_blank">Terms and Conditions</a></p>
+            <input type="hidden" name="_after" value="http://jubiki.com/order-sent.html">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>

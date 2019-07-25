@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link rel="stylesheet" href=/css/main.css>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- jquery -->
+    
+    <script type="text/javascript">
+            if (screen.width <= 699) {
+                document.location = "http://localhost:4000/overview.pdf";
+            }
+    </script>
+
+	<title>Jubiki Studios | Graphics Order</title>
+</head>
+
+<body>
+	<!-- start wrapper -->
+<div class="wrapper">
+    <header class="site-header">
+            <div class="site-branding">
+                <h1 class="site-title"><a href="index.html" rel="home">Jubiki Studios</a></h1>
+                <h3>Print, Graphic and Web Services</h3>
+            </div><!-- .site-branding -->
+        </header><!-- #masthead -->
+    <!-- start site -->
+    <div id="page" class="site">
+        <div class="site-content">
+            <div class="small"></div>
+            
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <nav>
+                        <ul>
+                            <li><a href='http://localhost:4000/' class="gray">Home</a></li>
+                            <li><a href="http://localhost:4000/about.html">About</a></li>
+                            <li><a href="http://localhost:4000/gallery" class="purple">Gallery</a></li>
+                            <li><a href="http://localhost:4000/services.html" class="green">Services</a></li>
+                            <li><a href="http://localhost:4000/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UC7FhJWmK4FsPfoH19zlPZsA/"><img src="img/youtube.svg"> </a> </li>
+                            <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank"><img src="img/facebook.svg"> </a></li>
+                            <li><a href="https://twitter.com/JubikiStudios"><img src="img/twitter.svg"> </a> </li>
+                            <li><a href="https://www.instagram.com/jubiki.studios/"><img src="img/instagram.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fifteen"></div>
+            
+	<div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            
+            <div class="row">
+    <div class="col-xs-12">
+        <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
+            <input type="hidden" name="_subject" value="Graphics Order">
+            <label for="order">I am ordering:</label>
+            <select name="order">
+              <option value="social-media">Social Media Graphics</option>
+              <option value="logo">Logo</option>
+              <option value="both">Both</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>Contact:</legend>
+                <input type="text" name="name" placeholder="Full Name"><br>
+                <input type="tel" name="phone-number" placeholder="000-000-0000">
+                <br>
+                <input type="checkbox" name="any">
+                <label for="any">Anytime</label>
+                <br>
+                <input type="checkbox" name="morning">
+                <label for="morning">9am - 11am</label>
+                <br>
+                <input type="checkbox" name="afternoon">
+                <label for="afternoon">1pm - 5pm</label>
+                <br><br>
+                <input type="email" name="email" placeholder="E-Mail" required>
+                <input type="email" name="confirm" placeholder="Confirm Email" required>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Information:</legend>
+                <label for="occupation">What is your occupation?</label><br>
+                <input type="text" name="occupation" required>
+                <br>
+                <label for="color-scheme">What is your preferred color scheme?</label><br>
+                <input type="text" name="color-scheme" required>
+                <p>List a minimum of three websites, logos and graphics with a style or color scheme you like. Please tell us why you like them.</p>
+                <textarea name="likes" required></textarea>
+                <p>Please share anything you think will help us understand your needs and goals better:</p>
+                <textarea name="needs-goals"></textarea>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Social Media</legend>
+                <p>What social media platforms are you ordering for? Choose three.</p>
+                <input type="checkbox" name="Facebook">
+                <label for="facebook">Facebook</label>
+                <br>
+                <input type="checkbox" name="Twitter">
+                <label for="twitter">Twitter</label>
+                <br>
+                <input type="checkbox" name="Youtube">
+                <label for="youtube">Youtube</label>
+                <br>
+                <input type="checkbox" name="etsy">
+                <label for="etsy">Etsy</label>
+                <br>
+                <input type="checkbox" name="linkedin">
+                <label for="linkedin">Linkedin</label>
+                <br>
+            </fieldset>
+
+            <p>By submitting this form, you agree to our <a href="terms-conditions.html" target="_blank">Terms and Conditions</a></p>
+            <input type="hidden" name="_after" value="http://jubiki.com/order-sent.html">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+            
+          
+            
+        </div>
+    </div>
+		</div> <!-- end site-content -->                
+                
+            </div> <!-- end site -->
+            
+        </div> <!-- end wrapper -->
+        
+        <!-- start footer -->
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12"  id="footer">
+                        <div class="ten"></div>
+                        <p>&copy; Jubiki Studios | All Rights Reserved</p>
+                    </div>
+                </div> <!-- end footer -->
+    
+</body>
+</html>

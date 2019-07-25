@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link rel="stylesheet" href=/css/main.css>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- jquery -->
+    
+    <script type="text/javascript">
+            if (screen.width <= 699) {
+                document.location = "http://localhost:4000/overview.pdf";
+            }
+    </script>
+
+	<title>Jubiki Studios | Book Details</title>
+</head>
+
+<body>
+	<!-- start wrapper -->
+<div class="wrapper">
+    <header class="site-header">
+            <div class="site-branding">
+                <h1 class="site-title"><a href="index.html" rel="home">Jubiki Studios</a></h1>
+                <h3>Print, Graphic and Web Services</h3>
+            </div><!-- .site-branding -->
+        </header><!-- #masthead -->
+    <!-- start site -->
+    <div id="page" class="site">
+        <div class="site-content">
+            <div class="small"></div>
+            
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <nav>
+                        <ul>
+                            <li><a href='http://localhost:4000/' class="gray">Home</a></li>
+                            <li><a href="http://localhost:4000/about.html">About</a></li>
+                            <li><a href="http://localhost:4000/gallery" class="purple">Gallery</a></li>
+                            <li><a href="http://localhost:4000/services.html" class="green">Services</a></li>
+                            <li><a href="http://localhost:4000/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UC7FhJWmK4FsPfoH19zlPZsA/"><img src="img/youtube.svg"> </a> </li>
+                            <li><a href="https://www.facebook.com/jubiki.studios/" target="_blank"><img src="img/facebook.svg"> </a></li>
+                            <li><a href="https://twitter.com/JubikiStudios"><img src="img/twitter.svg"> </a> </li>
+                            <li><a href="https://www.instagram.com/jubiki.studios/"><img src="img/instagram.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fifteen"></div>
+            
+	<div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            
+            <div class="row">
+    <div class="col-xs-12">
+        <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
+            <input type="hidden" name="_subject" value="Book Order">
+            <fieldset>
+                <legend>Shipping Address:</legend>
+                <input type="text" name="fullname" placeholder="Full Name"><br>
+                <input type="text" name="address" placeholder="Address"><input type="text" name="city" placeholder="City"><br>
+                <input type="text" name="state" placeholder="State">
+                <input type="text" name="zip" placeholder="Zip Code">
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Contact:</legend>
+                <input type="tel" name="phone-number" placeholder="000-000-0000">
+                <br>
+                <input type="checkbox" name="any">
+                <label for="any">Anytime</label>
+                <br>
+                <input type="checkbox" name="morning">
+                <label for="morning">9am - 11am</label>
+                <br>
+                <input type="checkbox" name="afternoon">
+                <label for="afternoon">1pm - 5pm</label>
+                <br><br>
+                <input type="email" name="email" placeholder="E-Mail" required>
+                <input type="email" name="confirm" placeholder="Confirm Email" required>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Information:</legend>
+                <input type="text" name="genre" placeholder="What genre is your book?" required>
+                <br>
+                <input type="number" name="pages" placeholder="How many pages is your book?">
+                <p>Do you have any reviews you'd like to include on the cover?</p>
+                <textarea name="review"></textarea>
+                <input type="text" name="author" placeholder="What name are you publishing under?">
+                <p>Please provide a synopsis for your manuscript:</p>
+                <textarea name="info"></textarea>
+                <p>Please select an option:</p>
+                <select name="size" required>
+                        <option value="regular">Book Cover</option>
+                        <option value="full">Full Book Cover</option>
+                    </select>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>File Upload</legend>
+                <p>A sample of your manuscript would help us design a better book cover for you. Please upload <b>zip files only</b>. <a href="https://www.wikihow.com/Make-a-Zip-File" target="_blank">Learn to make a zip file</a>.</p>
+                <input type="file" name="file">
+            </fieldset>
+
+            <p>By submitting this form, you agree to our <a href="terms-conditions.html" target="_blank">Terms and Conditions</a></p>
+            <input type="hidden" name="_after" value="http://jubiki.com/order-sent.html">
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+</div>
+            
+          
+            
+        </div>
+    </div>
+		</div> <!-- end site-content -->                
+                
+            </div> <!-- end site -->
+            
+        </div> <!-- end wrapper -->
+        
+        <!-- start footer -->
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12"  id="footer">
+                        <div class="ten"></div>
+                        <p>&copy; Jubiki Studios | All Rights Reserved</p>
+                    </div>
+                </div> <!-- end footer -->
+    
+</body>
+</html>
