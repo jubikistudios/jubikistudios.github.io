@@ -19,7 +19,7 @@
             }
     </script>
 
-	<title>Jubiki Studios | Order Sent</title>
+	<title>Jubiki Studios | Research</title>
 </head>
 
 <body>
@@ -68,30 +68,64 @@
             
             <div class="row">
     <div class="col-xs-12">
-        <div class="row">
-            <div class="col-xs-12 col-md-3 col-lg-3">
-                <p>Our Hours:</p>
-                <p>Monday - Friday: 9am - 5pm</p>
-                <p>Saturday - Sunday: Closed</p>
-            </div>
-            <div class="col-xs-12 col-md-5 col-lg-5">
-                <p>Contact us by e-mail -</p>
-                <p><i>General Inquiries:</i> contact&#64;jubiki.com</p>
-                <p><i>Complaints:</i> complaints&#64;jubiki.com</p>
-                <p><i>Business or Media Inquiries:</i> inquiry&#64;jubiki.com</p>
-                <p><i>Orders:</i> order&#64;jubiki.com</p>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
-                <p>Contact us by phone:</p>
-                <p><b>Recommendation:</b> Texts are quicker to answer. If you choose to call, please leave us a message.</p>
-                <p><b>Ph: &#40;973&#41; 370-0681</b></p>
-            </div>
-        </div>
+        <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
+            <input type="hidden" name="_subject" value="Research">
+            <br>
+            <fieldset>
+                <legend>Contact:</legend>
+                <label>Would you like to sign up for our newsletter?</label>
+                &nbsp;
+                <input type="checkbox" name="yes-newsletter">
+                <label for="yes-newsletter">Yes</label>
+                &nbsp;
+                <input type="checkbox" name="no-newsletter">
+                <label for="no-newsletter">No</label>
+                <br>
+                <br>
+                <p>In case we have further questions, please provide your email:</p>
+                <input type="email" name="email" placeholder="E-Mail" required>
+            </fieldset>
+            
+            <br>
+            
+            <fieldset>
+                <legend>Problems</legend>
+                <p>Tell us who you are and a bit about your business.</p>
+                    <textarea name="business-problems"></textarea>
+                <p>What problems do you face with your business?</p>
+                    <textarea name="business-problems"></textarea>
+                <p>What actions have you taken to solve those problems?</p>
+                    <textarea name="actions-problems"></textarea>
+            </fieldset>
+
+            <br>
+                <fieldset>
+                    <legend>Hiring</legend>
+                    <p>When looking for graphic or web services, what attracts you to a business?</p>
+                    <textarea name="attracts-business"></textarea>
+                    <p>What problems did the business you hired solve?</p>
+                    <textarea name="solutions"></textarea>
+                    <p>What results were you expecting?</p>
+                    <textarea name="expected-results"></textarea>
+                </fieldset>
+            <br>
+
+                <fieldset>
+                    <legend>Engagement</legend>
+                    <p>What makes you continously follow and engage with a business?</p>
+                    <textarea name="engagement"></textarea>
+
+                </fieldset>
+            <br>
+            
+            <p>We appriciate your willingness to participate in our research. We don't sell or share your personal information.</p>
+            
+            <input type="hidden" name="_after" value="http://jubiki.com/thanks.html">
+            <input type="submit" value="Submit">
+        </form>
+
     </div>
-</div>
-
-
-
+</div> 
             
           
             

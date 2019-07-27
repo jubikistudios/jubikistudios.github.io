@@ -15,10 +15,6 @@ body {
     padding: 10px;
 }
 
-p {
-    margin-bottom: 10px;
-}
-
 h5 {
     font-size: 16px;
 }
@@ -199,11 +195,9 @@ nav a:hover {
 }
 
 #footer {
-    color: #fff;
     text-align: center;
     margin-top: 5px;
     font-size: 11px;
-    width: 80%;
 }
 
 /* table */
@@ -349,7 +343,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-bottom: .5em;
-    text-indent: 15px;
   &.def {
     clear: both;
   }
