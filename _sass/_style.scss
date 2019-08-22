@@ -1,23 +1,19 @@
-* { margin: 0; padding: 0; }
-
 body {
-    background: #000;
+    background: #5E5F5E;
     font-family: arial, sans-serif, verdana;
     font-size: 16px;
+    padding: 10px;
 }
 
 .wrapper {
     width: 60%; 
     margin: 0 auto;
     background: #fff;
+    border: 4px solid black;
 }
 
 .site {
     padding: 10px;
-}
-
-h5 {
-    font-size: 16px;
 }
 
 /* links */ 
@@ -47,15 +43,59 @@ a {
          url('/font/sansani_fonts_-_cartwheel-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+/* Typography */
+
+h5 {
+    font-size: 16px;
+}
+
+h2.purple-title {
+    display: block;
+    background: #992AF9;
+    padding: 5px;
+    color: #fff;
+}
+
+h2.gray-title {
+    background: #4B4B4B;
+    display: block;
+    color: #fff;
+    padding: 5px;
+}
+
+h2.black-title {
+    background: #000000;
+    display: block;
+    color: #fff;
+    padding: 5px;
+}
+
+h2.green-title {
+    background: #C3FE1B;
+    display: block;
+    color: #000; 
+    padding: 5px;
 }
 
 /* site header */
 
 .site-header {
-    background: #FE1B3F;
+    background: #FE1B3F url('../img/panda-banner.svg');
+    background-size: cover;
+    min-height: 300px;
     border-bottom: 10px solid #C3FE1B;
+    max-height: 300px;
+    padding: 0px;
+    margin: 0px;
+    
 }
+
+.site-header img {
+    width: 100%;
+}
+
 
 .site-header h1 {
     font-family: 'komika_axisregular';
@@ -87,8 +127,11 @@ a {
 
 /* navigation */ 
 
-nav {
-
+nav ul {
+    margin-block-start: 0px;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 nav ul li {
@@ -125,10 +168,21 @@ nav a:hover {
 
 /* social */
 
+.social {
+    padding: 0px;
+    margin: 0px;
+}
+
 .social img {
     height: 35px;
     width: auto;
     margin: 0 auto;
+}
+
+.social ul {
+    margin-block-start: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .social ul li {
@@ -136,7 +190,6 @@ nav a:hover {
     float: right;
     text-align: left;
     padding-right: 5px;
-    margin-bottom: 15px;
 }
 
 .social li {
@@ -145,6 +198,26 @@ nav a:hover {
 
 .social img:hover {
     opacity: .5;
+}
+
+
+/* color */
+
+.green {
+    background: #C3FE1B;
+}
+
+.green h3 {
+    background: #000;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.green p {
+    padding: 10px;
 }
 
 /* space */
@@ -165,16 +238,10 @@ nav a:hover {
 
 .purple-menu {
     background: #992AF9;
-    min-height: 200px;
-    margin-right: 5px;
-    padding-bottom: 15px;
-    overflow: hidden;
     color: #fff;
 }
 
-.purple-menu h3 {
-    width: 100%;
-    max-height: 18px;
+.purple-menu h2 {
     background: #8C27E3 !important;
     color: #fff;
     font-family: 'cartwheelregular';
@@ -195,10 +262,14 @@ nav a:hover {
     padding-bottom: 15px;
 }
 
-#footer {
+footer  {
     text-align: center;
-    margin-top: 5px;
     font-size: 11px;
+    background: #FE1B3F; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #fff;
+    border-top: 10px solid #C3FE1B;
 }
 
 /* table */
