@@ -1,0 +1,26 @@
+jane-doe: 
+  name: jane-doe
+  bio: "In hac habitasse platea dictumst. Fusce efficitur ante a porttitor ornare. Nullam vitae scelerisque tellus. Pellentesque lacinia elit in pharetra varius. Sed id velit sed enim varius rutrum rutrum eu libero. Donec ornare pretium lorem, ac dictum ex fringilla a. Integer venenatis ipsum nisi, a iaculis tortor semper eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  email: contact@mail.com
+  image: "https://via.placeholder.com/150"
+  author: Jane Doe
+  twitter: "http://twitter.com/testing"
+  
+jane-smith: 
+  bio: "Donec convallis mi"
+  email: contact@mail.com
+  image: "https://via.placeholder.com/150"
+  name: jane-smith
+  author: Jane Smith
+  twitter: "http://twitter.com/testing"
+  
+judia-krakowski: 
+    bio: "Judia is a multi-talented, passionate creative with an extensive background in design, technology, and publishing. When she's not at Jubiki Studios, she's volunteering her time with various non-profits."
+    email: contact@jubiki.com
+    image: "https://i.ibb.co/dkQyH5d/judia-krakowski.jpg"
+    name: judia-krakowski
+    author: Judia Krakowski
+    twitter: "http://www.twitter.com/jvkrakowski"
+    linkedin: "https://www.linkedin.com/in/jvkrakowski/"
+    instagram: "http://www.instagram.com/jvkrakowski"
+    website: "http://www.jubiki.com"

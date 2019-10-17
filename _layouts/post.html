@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+	{% include header.html %}
+    <div class="small"></div>
+
+	<div class="row">
+        <div class="col-xs-12 col-md-8 col-lg-8">
+            
+            <h1 class="post-title-single">{{ page.title }}</h1>
+            <p class="credits">Written by {{page.name}} on {{ page.date | date: "%B %-d %Y" }} in <i>
+                {% if post %}
+                {% assign categories = post.categories %}
+                {% else %}
+                {% assign categories = page.categories %}
+                {% endif %}
+                {% for category in categories %}
+                <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                {% unless forloop.last %}{% endunless %}
+                {% endfor %} </i></p>
+            <img src="{{ page.featured_image }}" class="featured-image">
+            
+            {{ content }}
+            
+
+            <hr>
+            {% assign author = site.data.author[page.author] %}            
+            <div class="author-bio">
+                <h3> {{author.author}}</h3>
+                <p> {% if author.image %}
+                    <img src="{{author.image}}" class="author-img" align="left">{% endif %} {{ author.bio }}</p>
+                {% if author.twitter %}
+                <a href="{{author.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a> 
+                {% endif %}
+                {% if author.linkedin %}
+                <a href="{{author.linkedin}}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                {% endif %}
+                {% if author.instagram %}
+                <a href="{{author.linkedin}}" target="_blank"><i class="fab fa-instagram"></i></a>
+                {% endif %}
+                {% if author.website %}
+                <a href="{{author.website}}" target="_blank"><i class="fas fa-globe"></i></a>
+                {% endif %}
+                </div>
+            
+            <div class="small"></div>
+
+            
+            <a onclick="window.history.back()">Back to Previous Page</a>
+    
+             <div class="small"></div>
+            <!-- comments -->
+            
+            {% if site.disqus.shortname %}
+            {% include comments.html %}
+            {% endif %}
+        </div>
+    
+        <div class="col-xs-12 col-md-4 col-lg-4">
+            <div class="purple-menu">
+                <h2>Write a post for us!</h2>
+                <p>We look for content that will enrich the professional or personal lives of creative entrepreneurs. If you have a piece, drop us a line with your idea, and we'll talk about it!</p>
+            </div>
+            <div class="purple-menu">
+                <h2>Show your love!</h2>
+                <p>Our posts are written by hard working entrepreneurs like yourself. Give them a little love by visiting them on social media and checking out their stuff.</p>
+            </div>
+            <div class="purple-menu">
+            <h2>Join Our Mailing List</h2>
+            <p>Know about sales, deals, contests and events before everyone else! Better yet, get deals that only subscribers are given! Don't worry about a flood of emails; we'll only drop a line when it's necessary.</p>
+            <p><a href="https://mailchi.mp/c0af13b93720/pandas">Become a Panda</a> </p>
+        </div>
+        </div>
+        
+        <script id="dsq-count-scr" src="//jubiki-studios.disqus.com/count.js" async></script>
+    {% include footer.html %}
+         </div>
+    </body>
+</html>
