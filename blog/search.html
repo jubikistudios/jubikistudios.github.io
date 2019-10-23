@@ -1,0 +1,56 @@
+---
+layout: default
+title: Gallery
+---
+<div class="small"></div>
+
+<div class="row">
+
+    <div class="col-xs-12 col-md-8 col-lg-8">
+        <!-- Html Elements for Search -->
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="search...">
+            <ul id="results-container"></ul>
+        </div>
+        <!-- Script pointing to search-script.js -->
+        <script src="{{ site.url }}/blog/simple-jekyll-search.min.js" type="text/javascript"></script>
+        <!-- Configuration -->
+        <script>
+            SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                searchResultTemplate: '<div><a href="{url}"><h2 class="post-title">{title}</h2></a><span>By {name}</span></div>',
+                resultsContainer: document.getElementById('results-container'),
+                json: '{{ site.url }}/blog/search.json'
+            })
+        </script>
+            
+    </div>
+            
+    <div class="col-xs-12 col-md-4 col-lg-4">
+        <div class="purple-menu">
+            <h2>Join Our Mailing List</h2>
+            <p>Know about sales, deals, contests and events before everyone else! Better yet, get deals that only subscribers are given! Don't worry about a flood of emails; we'll only drop a line when it's necessary.</p>
+            <p><a href="https://mailchi.mp/c0af13b93720/pandas">Become a Panda</a> </p>
+          
+        </div>
+        <div class="purple-menu">
+            <h2>Categories</h2>
+            <ul>
+                {% for category in site.categories %}
+                <li><a href="{{site.url}}/blog/category.html#{{category|first}}"><strong>{{category|first}}</strong></a></li>
+                {% endfor %}
+            </ul>
+            
+        </div>
+            
+        <div class="purple-menu">
+            <h2>Tags</h2>
+            <ul>
+                {% for tag in site.tags %}
+                <li><a href="{{site.url}}/blog/tag.html#{{tag|first}}"><strong>{{tag|first}}</strong></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+            
+</div>

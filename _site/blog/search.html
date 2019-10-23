@@ -20,7 +20,7 @@
     </script>
     <meta name="p:domain_verify" content="d2779666ca10a6f579e5d3fee8773f19"/>
 
-	<title>Jubiki Studios | Research</title>
+	<title>Jubiki Studios | Gallery</title>
 </head>
 
 <body>
@@ -63,66 +63,60 @@
 	<div class="row">
         <div class="col-xs-12 col-md-12 col-lg-12">
             
-            <div class="row">
-    <div class="col-xs-12">
-        <form class="order-form" enctype="multipart/form-data" action="https://formsapi.jabwn.com/key/fLTfW5HNC3s0rdO8XsL7" method="post">
-            <input type="hidden" name="_subject" value="Research">
-            <br>
-            <fieldset>
-                <legend>Contact:</legend>
-                <label>Would you like to sign up for our newsletter?</label>
-                &nbsp;
-                <input type="checkbox" name="yes-newsletter">
-                <label for="yes-newsletter">Yes</label>
-                &nbsp;
-                <input type="checkbox" name="no-newsletter">
-                <label for="no-newsletter">No</label>
-                <br>
-                <br>
-                <p>In case we have further questions, please provide your email:</p>
-                <input type="email" name="email" placeholder="E-Mail" required>
-            </fieldset>
-            
-            <br>
-            
-            <fieldset>
-                <legend>Problems</legend>
-                <p>Tell us who you are and a bit about your business.</p>
-                    <textarea name="business-problems"></textarea>
-                <p>What problems do you face with your business?</p>
-                    <textarea name="business-problems"></textarea>
-                <p>What actions have you taken to solve those problems?</p>
-                    <textarea name="actions-problems"></textarea>
-            </fieldset>
+            <div class="small"></div>
 
-            <br>
-                <fieldset>
-                    <legend>Hiring</legend>
-                    <p>When looking for graphic or web services, what attracts you to a business?</p>
-                    <textarea name="attracts-business"></textarea>
-                    <p>What problems did the business you hired solve?</p>
-                    <textarea name="solutions"></textarea>
-                    <p>What results were you expecting?</p>
-                    <textarea name="expected-results"></textarea>
-                </fieldset>
-            <br>
+<div class="row">
 
-                <fieldset>
-                    <legend>Engagement</legend>
-                    <p>What makes you continously follow and engage with a business?</p>
-                    <textarea name="engagement"></textarea>
-
-                </fieldset>
-            <br>
+    <div class="col-xs-12 col-md-8 col-lg-8">
+        <!-- Html Elements for Search -->
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="search...">
+            <ul id="results-container"></ul>
+        </div>
+        <!-- Script pointing to search-script.js -->
+        <script src="http://localhost:4000/blog/simple-jekyll-search.min.js" type="text/javascript"></script>
+        <!-- Configuration -->
+        <script>
+            SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                searchResultTemplate: '<div><a href="{url}"><h2 class="post-title">{title}</h2></a><span>By {name}</span></div>',
+                resultsContainer: document.getElementById('results-container'),
+                json: 'http://localhost:4000/blog/search.json'
+            })
+        </script>
             
-            <p>We appriciate your willingness to participate in our research. We don't sell or share your personal information.</p>
-            
-            <input type="hidden" name="_after" value="http://jubiki.com/thanks.html">
-            <input type="submit" value="Submit">
-        </form>
-
     </div>
-</div> 
+            
+    <div class="col-xs-12 col-md-4 col-lg-4">
+        <div class="purple-menu">
+            <h2>Join Our Mailing List</h2>
+            <p>Know about sales, deals, contests and events before everyone else! Better yet, get deals that only subscribers are given! Don't worry about a flood of emails; we'll only drop a line when it's necessary.</p>
+            <p><a href="https://mailchi.mp/c0af13b93720/pandas">Become a Panda</a> </p>
+          
+        </div>
+        <div class="purple-menu">
+            <h2>Categories</h2>
+            <ul>
+                
+                <li><a href="http://localhost:4000/blog/category.html#content"><strong>content</strong></a></li>
+                
+            </ul>
+            
+        </div>
+            
+        <div class="purple-menu">
+            <h2>Tags</h2>
+            <ul>
+                
+                <li><a href="http://localhost:4000/blog/tag.html#reading"><strong>reading</strong></a></li>
+                
+                <li><a href="http://localhost:4000/blog/tag.html#content"><strong>content</strong></a></li>
+                
+            </ul>
+        </div>
+    </div>
+            
+</div>
             
           
             
