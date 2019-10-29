@@ -173,23 +173,23 @@ h2.green-title {
 
 /* site header */
 
-.site-header {
-    background: #FE1B3F url('../img/panda-banner.svg');
-    background-size: cover;
-    min-height: 300px;
+#site-header {
+    background: #FE1B3F;
+    height: 279px;
+    width: 100%;
     border-bottom: 10px solid #ee7816;
-    max-height: 300px;
     padding: 0px;
     margin: 0px;
     
 }
 
-.site-header img {
+#site-header img {
     width: 100%;
+    object-fit: contain;
 }
 
 
-.site-header h1 {
+#site-header h1 {
     font-family: 'komika_axisregular';
     -webkit-text-stroke: 2px black;
     font-size: 2.5em;
@@ -198,17 +198,17 @@ h2.green-title {
     padding-top: 10px;
 }
 
-.site-header h1 a {
+#site-header h1 a {
     text-decoration: none;
     color: #fff;
 }
 
-.site-header h1 a:hover {
+#site-header h1 a:hover {
     color: #000;
     -webkit-text-stroke: 2px white;
 }
 
-.site-header h3 {
+#site-header h3 {
     text-align: center;
     padding-top: 5px;
     font-weight: 100;
@@ -233,7 +233,7 @@ nav ul li {
 
 nav a {
     font-family: 'cartwheelregular';
-    font-size: 1.6em;
+    font-size: 1.2em;
     background: #2b323e;
     margin-left: 5px;
     padding: 5px;
