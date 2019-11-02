@@ -1,11 +1,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-   
-    <link rel="stylesheet" href={{ "/css/main.css" | prepend: site.baseurl }}>
+    <meta name="p:domain_verify" content="d2779666ca10a6f579e5d3fee8773f19"/>
+    <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+    
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 <!--    <script src="/js/simple-jekyll-search.min.js" type="text/javascript"></script>-->
-    <script src={{ "/js/lightbox.js" | site_url }} type="text/javascript"></script>
+    <script src="{{ site.url }}/js/lightbox.js" type="text/javascript"></script>
     
     <script src="https://kit.fontawesome.com/2be4d518aa.js" crossorigin="anonymous"></script>
     
@@ -16,7 +17,6 @@
                 document.location = "{{site.url}}/overview.pdf";
             }
     </script>
-    <meta name="p:domain_verify" content="d2779666ca10a6f579e5d3fee8773f19"/>
-
+    
 	<title>Jubiki Studios | {{ page.title }}</title>
 </head>

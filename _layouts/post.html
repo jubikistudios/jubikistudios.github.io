@@ -24,10 +24,10 @@
             {{ content }}
             
 
-            <hr>
-            {% assign author = site.data.author[page.author] %}            
+            <div class="small"></div>
             <div class="author-bio">
-                <h3> {{author.author}}</h3>
+            <h3>About the Author</h3>
+            {% assign author = site.data.author[page.author] %}            
                 <p> {% if author.image %}
                     <img src="{{author.image}}" class="author-img" align="left">{% endif %} {{ author.bio }}</p>
                 {% if author.twitter %}

@@ -8,7 +8,7 @@ title: Jubiki Studios | Blog
 <div class="row">
     <div class="col-xs-12 col-md-8 col-lg-8">
         {% for post in paginator.posts %}
-		<a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title">{{ post.title }}</h2></a>
+		<a href="{{ post.url | prepend: site.baseurl }}" class="hvr-wobble-top"><h2 class="post-title">{{ post.title }}</h2></a>
         
         <p class="credits">Written by {{post.name}} on {{ post.date | date: "%B %-d %Y" }} in <i>
                 {% if post %}
@@ -17,7 +17,7 @@ title: Jubiki Studios | Blog
                 {% assign categories = page.categories %}
                 {% endif %}
                 {% for category in categories %}
-                <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="hvr-wobble-top">{{category}}</a>
                 {% unless forloop.last %}{% endunless %}
                 {% endfor %} </i></p>
         
@@ -49,14 +49,14 @@ title: Jubiki Studios | Blog
         <div class="purple-menu">
             <h2>Join Our Mailing List</h2>
             <p>Know about sales, deals, contests and events before everyone else! Better yet, get deals that only subscribers are given! Don't worry about a flood of emails; we'll only drop a line when it's necessary.</p>
-            <p><a href="https://mailchi.mp/c0af13b93720/pandas">Become a Panda</a> </p>
+            <p><a href="https://mailchi.mp/c0af13b93720/pandas" class="hvr-wobble-top">Become a Panda</a> </p>
           
         </div>
         <div class="purple-menu">
             <h2>Categories</h2>
             <ul>
                 {% for category in site.categories %}
-                <li><a href="{{site.url}}/blog/category.html#{{category|first}}"><strong>{{category|first}}</strong></a></li>
+                <li><a href="{{site.url}}/blog/category.html#{{category|first}}" class="hvr-wobble-top"><strong>{{category|first}}</strong></a></li>
                 {% endfor %}
             </ul>
             
@@ -66,7 +66,7 @@ title: Jubiki Studios | Blog
             <h2>Tags</h2>
             <ul>
                 {% for tag in site.tags %}
-                <li><a href="{{site.url}}/blog/tag.html#{{tag|first}}"><strong>{{tag|first}}</strong></a></li>
+                <li><a href="{{site.url}}/blog/tag.html#{{tag|first}}" class="hvr-wobble-top"><strong>{{tag|first}}</strong></a></li>
                 {% endfor %}
             </ul>
         </div>

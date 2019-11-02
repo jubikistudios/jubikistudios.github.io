@@ -10,6 +10,7 @@
       "categories" : "{{ post.categories }}",
       "tag"     : "{{ post.tag | join: ', ' }}",
       "name"   : "{{ post.name }}",
+      "description" : "{{ post.description }}",
       "date"     : "{{ post.date }}"
 
     } {% unless forloop.last %},{% endunless %}
