@@ -5,9 +5,39 @@
     <description>Jubiki Studios provides print, graphic and web service to creative professionals at affordable prices. </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Dec 2019 20:07:44 -0500</pubDate>
-    <lastBuildDate>Sun, 01 Dec 2019 20:07:44 -0500</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2020 09:50:30 -0400</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2020 09:50:30 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Great Hair Happens by Appointment</title>
+        <description>&lt;p&gt;I was born with electrified poodle fur for hair, contrary to my Asian lineage. Nobody could tell you who I inherited it from, but everyone says I’m blessed with such fine hair. In fact, people loved to run their fingers through my curls as a child.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;All I remember is looking at a photo of a four-year-old me with a massive frizzy afro. It was a deep auburn with rich red tones that glinted in the sunlight. That was about all that I found pretty about it. I remember having to handle that hair, and it was never a pretty picture.&lt;/p&gt;
+
+&lt;p&gt;Jodi is like many people that have seen my untreated locks. She wants to sink her hands into it and work her magic. Unfortunately, she doesn’t live close enough for me to casually drop by for a visit. She owns Joray’s Creations in Parkersburg, West Virginia.&lt;/p&gt;
+
+&lt;p&gt;I met her many moons ago, but only recently completed a website for her business. She does beautiful work, and I didn’t want to build a design that would take away from that. We went with simple and sophisticated for her.&lt;/p&gt;
+
+&lt;p&gt;Jodi has a personal touch with her business, and I didn’t take that away from her. She kept that personal touch through handwritten headings and personalized signature. Furthermore, she can chat with clients on her website without leaving her studio. She can take photos of her work, upload it to Instagram, and her site will update itself without her. Her website definitely fits her busy lifestyle.&lt;/p&gt;
+
+&lt;p&gt;You can check out her website &lt;a href=&quot;https://www.joraycreations.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 Dec 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/gallery/great-hair-appointment.html</link>
+        <guid isPermaLink="true">http://localhost:4000/gallery/great-hair-appointment.html</guid>
+        
+        <category>client</category>
+        
+        <category>gallery</category>
+        
+        
+        <category>Gallery</category>
+        
+      </item>
     
       <item>
         <title>How to Write Content for Better Reading</title>

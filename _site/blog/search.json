@@ -2,6 +2,18 @@
   
     {
 
+      "title"    : "Great Hair Happens by Appointment",
+      "url"      : "/gallery/great-hair-appointment.html",
+      "categories" : "Gallery",
+      "tag"     : "client, gallery",
+      "name"   : "Judia Krakowski",
+      "description" : "People love my hair more than I do. Especially our new client, a cosmologist named Jodi.",
+      "date"     : "2019-12-29 00:00:00 -0500"
+
+    } ,
+  
+    {
+
       "title"    : "How to Write Content for Better Reading",
       "url"      : "/content/write-content-better-reading.html",
       "categories" : "Content",

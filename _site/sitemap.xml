@@ -5,6 +5,10 @@
 <lastmod>2019-10-17T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/gallery/great-hair-appointment.html</loc>
+<lastmod>2019-12-29T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -47,9 +51,6 @@
 <loc>http://localhost:4000/order-sent.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/order.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/research.html</loc>
 </url>
 <url>
@@ -57,6 +58,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/services.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/shop.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/tag.html</loc>
@@ -75,6 +79,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/overview.pdf</loc>
-<lastmod>2019-08-22T13:01:10-04:00</lastmod>
+<lastmod>2019-12-29T14:47:42-05:00</lastmod>
 </url>
 </urlset>
