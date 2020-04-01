@@ -81,4 +81,12 @@
 <loc>http://localhost:4000/overview.pdf</loc>
 <lastmod>2019-12-29T14:47:42-05:00</lastmod>
 </url>
+<url>
+<loc>http://localhost:4000/pdf/basic_print.pdf</loc>
+<lastmod>2020-04-01T17:51:21-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/pdf/compcards_headshots.pdf</loc>
+<lastmod>2020-04-01T17:27:21-04:00</lastmod>
+</url>
 </urlset>
